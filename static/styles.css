@@ -1,62 +1,38 @@
-/* General body styling */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header nav {
+    background-color: #4CAF50;
+    padding: 10px;
     text-align: center;
 }
 
-/* Header styling */
-header {
-    background-color: #4CAF50;
+header nav a {
     color: white;
-    padding: 20px 0;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-/* Main content area */
-main {
-    padding: 50px 20px;
-}
-
-h1 {
-    color: #4CAF50;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-p {
+    margin: 0 15px;
+    text-decoration: none;
     font-size: 18px;
-    color: #666;
 }
 
-/* Footer styling */
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
 footer {
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    text-align: center;
+    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    font-size: 14px;
-}
-
-/* Button styling */
-.button {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #45a049;
 }
